@@ -1,0 +1,10 @@
+<Window x:Class="ModManager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ADVR Mod Manager" Height="350" Width="525">
+    <StackPanel Margin="10">
+        <Button Name="btnInstallPC" Content="Install Mod to PC" Margin="0,5"/>
+        <Button Name="btnInstallQuest" Content="Install Mod to Quest (ADB)" Margin="0,5"/>
+        <ListBox Name="lstMods" Height="200"/>
+    </StackPanel>
+</Window>
